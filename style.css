@@ -22,12 +22,21 @@ body {
 
 header {
   background-color: var(--primary-color);
-  height: auto;
-  padding: 0 20px;
+  height: 110px;
+  padding: 0 30px;
   position: relative;
   flex-direction: column;
+  display: flex;
 }
 
+.top{
+  padding: 10px 15px;
+}
+
+.bottom{
+  display: flex;
+  justify-content: center;
+}
 
 .container-logo {
   display: flex;
@@ -84,6 +93,7 @@ header {
   gap: 8px;
   color: white;
   font-size: 14px;
+  padding-left: 20px;
 }
 
 .cep img {
@@ -98,22 +108,20 @@ header {
 }
 
 .cep-texto p {
-  margin: 0;
   font-weight: 300;
 }
 
 .cep-texto span {
   font-weight: 600;
-  margin: 0;
 }
 
 .menu ul {
   display: flex;
   gap: 20px;
   list-style: none;
-  padding: 0;
-  margin: 0;
   color: white;
+  padding-left: 35px;
+  padding-top: -35px;
 }
 
 .menu ul li {
