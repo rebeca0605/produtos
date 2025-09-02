@@ -1,5 +1,5 @@
 :root {
-  --primary-color: #6614BE;
+  --primary-color: #1433be;
   --borda-color: #f5f5f5;
 }
 
@@ -29,15 +29,6 @@ header {
   display: flex;
 }
 
-.top{
-  padding: 10px 15px;
-}
-
-.bottom{
-  display: flex;
-  justify-content: center;
-}
-
 .container-logo {
   display: flex;
   align-items: center;
@@ -55,14 +46,17 @@ header {
   font-size: 25px;
 }
 
-.header-container {
+.bottom{
+  padding-left: 615px;
+}
+
+.top {
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  padding-left: 80px;
-  padding-bottom: 50px;
-  height: 100%;
+  padding-left: 380px;
   gap: 50px;
+  margin-top: 15px;
 }
 
 .pesquisar {
@@ -93,7 +87,7 @@ header {
   gap: 8px;
   color: white;
   font-size: 14px;
-  padding-left: 20px;
+  padding-left: 310px;
 }
 
 .cep img {
@@ -115,20 +109,42 @@ header {
   font-weight: 600;
 }
 
+.menu{
+  margin-top: 30px;
+  width: 500px;
+}
+
 .menu ul {
   display: flex;
   gap: 20px;
-  list-style: none;
   color: white;
-  padding-left: 35px;
-  padding-top: -35px;
 }
 
 .menu ul li {
-  color: #b977ff;
+  color: #7389ec;
   transition: color 0.3s ease;
 }
 
+.menu-conta{
+  margin-left: 800px;
+  margin-top: -20px;
+}
+
 .menu ul li:hover {
+  color: white;
+}
+
+.menu-conta ul {
+  display: flex;
+  gap: 20px;
+  color: white;
+}
+
+.menu-conta ul li {
+  color: #7389ec;
+  transition: color 0.3s ease;
+}
+
+.menu-conta ul li:hover {
   color: white;
 }
