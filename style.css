@@ -23,6 +23,7 @@ body {
 header {
   background-color: var(--primary-color);
   height: 110px;
+  width: 100%;
   padding: 0 30px;
   position: relative;
   flex-direction: column;
@@ -147,4 +148,32 @@ header {
 
 .menu-conta ul li:hover {
   color: white;
+}
+
+.menu-conta img {
+    width: 25px;
+    height: 25px;  
+}
+
+main{
+    width: 1200px;
+    height: 1500px;
+    margin: 0 auto;
+}
+
+footer{
+  background-color: var(--primary-color);
+  height: 298px;
+  display: flex;
+}
+
+.informacoes{
+  color: white;
+  display: flex;
+  gap: 100px;
+  font-size: 20px;
+  justify-content: center;
+  margin-top: 60px;
+  margin-left: 350px;
+  line-height: 35px;
 }
